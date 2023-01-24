@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
-body{
+body {
     font-family: 'Roboto';
     font-weight: 400;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 0px 15px 0px;
-    box-shadow:0 6px 20px 0 rgba(158, 158, 158, 0.19);
+    box-shadow: 0 6px 20px 0 rgba(158, 158, 158, 0.19);
 }
 
-nav ul{
+nav ul {
     max-width: 500px;
     display: flex;
     justify-content: space-between;
@@ -21,13 +21,14 @@ nav ul{
     padding-left: 0px;
 }
 
-nav ul li a{
+nav ul li a {
     color: rgb(77, 77, 77);
     text-decoration: none;
     padding: 10px;
+    transition: ease 0.5s;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: rgb(77, 77, 77);
     text-decoration: none;
     background-color: black;
@@ -36,17 +37,17 @@ nav ul li a:hover{
     color: aliceblue;
 }
 
-.card{
+.card {
     border: 0px;
-    box-shadow:0 6px 20px 0 rgba(64, 64, 64, 0.19);
+    box-shadow: 0 6px 20px 0 rgba(64, 64, 64, 0.19);
 }
 
-.cari-t{
+.cari-t {
     border: 0px;
     background-color: rgba(228, 229, 241, 0.616);
 }
 
-.card .cari{
+.card .cari {
     padding: 65px 40px 65px 40px;
 }
 
@@ -56,7 +57,7 @@ nav ul li a:hover{
     line-height: 1.2;
 }
 
-.cari p{
+.cari p {
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 34px;
@@ -70,10 +71,10 @@ nav ul li a:hover{
     text-decoration: none;
 }
 
-.text-center a:hover{
+.text-center a:hover {
     text-decoration: underline;
 }
 
-.col ul li a{
+.col ul li a {
     text-decoration: none;
 }
